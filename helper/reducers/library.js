@@ -1,5 +1,3 @@
-import Books from './BookList.json'
-
 module.exports = {
     library: (state = {}, action) => {
       let newState = {...state}
@@ -20,10 +18,10 @@ module.exports = {
 
             return newState
           default:
-            return {...Books, ...newState}
+            return newState
         }
       },
-    vocabulary: (state = {totalWordsExposedTo: 1, vocab: {bienvinidos: {text: "bienvinidos",translated: "welcome", exposures: 1}}}, action) => {
+    vocabulary: (state = {}, action) => {
         let newState = {...state}
 
 
