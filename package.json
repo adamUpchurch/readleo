@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.7.1",
-    "async": "^2.6.3",
+    "async": "^2.6.4",
     "expo": "~36.0.0",
     "expo-secure-store": "^8.0.0",
     "react": "~16.9.0",
